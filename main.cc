@@ -82,8 +82,8 @@ void chooseMode() {
 
 int main(int argc, char *argv[]) {
   std::string more;
+  display();
   while (more != "q") {
-    display();
     chooseMode();
     std::cout << "Again?  'q' to quit, any key to continue\n";
     std::cin >> more;
